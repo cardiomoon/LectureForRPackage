@@ -36,7 +36,7 @@ style_duo_accent(
 - 성빈센트병원 순환기내과 재직
 
 - 11 CRAN packages (CRAN)
-  - mycor, moonBook, ztable(2015)
+  - mycor, moonBook, ztable(2014)
   - ggiraphExtra(2016) 
   - dplyrAssist, editData, ggplotAssist(2017)
   - rrtable (2018)
@@ -59,7 +59,54 @@ include_graphics("figures/book2.jpg")
 include_graphics("figures/book3.jpg")
 include_graphics("figures/book4.jpg")
 ```
+---
+class: inverse, center, middle
 
+# 논문 출판과 CRAN 등록
+---
+![article](figures/article.png)
+---
+[![R package moonBook](figures/moonBook.png)](https://cran.r-project.org/web/packages/moonBook/index.html)
+
+---
+## R 패키지를 만드는 이유는?
+
+
+- An R package is a good method for distributing functions to users.
+
+- R Packages require documentation and the package structure allows you to distribute functions and documentation together.
+
+---
+
+### Which of the following files and folders are required in an R package?
+
+- An inst/ directory.
+
+
+- A NAMESPACE file.
+
+
+- A DESCRIPTION file.
+
+
+- The R/ directory.
+
+
+- The man/ directory.
+
+
+- A README.md file.
+
+---
+### 참고문헌 : R package
+
+- Manual : [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+
+- [R packages](https://r-pkgs.org/)
+
+- [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+
+- [Coursera - Building R packages](https://www.coursera.org/learn/r-packages/home/welcome)
 ---
 class: inverse, center, middle
 
@@ -141,3 +188,120 @@ devtools::check_win()
 ![alt text](figures/Brian.jpeg)
 ![alt text](figures/reply3.png)
 ---
+class: inverse, center, middle
+
+# The 2nd CRAN package - moonBook(2014)
+
+---
+[![R package moonBook](figures/moonBook.png)](https://cran.r-project.org/web/packages/moonBook/index.html)
+
+---
+### The First Trial - package "mytest"
+
+```{r,out.width="70%",echo=FALSE}
+knitr::include_graphics("figures/mytest1.png")
+```
+---
+```{r,out.width="70%",echo=FALSE}
+knitr::include_graphics("figures/mytest2.png")
+```
+
+---
+### The 2nd Trial - package "mytable"
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable1.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable2.png")
+```
+
+---
+.pull-left[
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable3.png")
+```
+]
+.pull-right[
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable4.png")
+```
+]
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable5.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable6.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/mytable7.png")
+```
+---
+### The 3nd Trial - package "moonBook"
+
+```{r,echo=FALSE,out.width="70%"}
+knitr::include_graphics("figures/moonBook1.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/moonBook2.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/moonBook3.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/moonBook4.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/moonBook5.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/moonBook6.png")
+```
+
+---
+class: inverse, center, middle
+
+# Maintenance of CRAN packages
+
+---
+### CRAN 패키지를 업데이트 해야 하는 경우
+
+- Bug fix
+
+- 새로운 함수, 데이터 추가
+
+- dependent package가 업데이트 되는 경우
+
+- CRAN 정책이 바뀐 경우
+
+- R버전의 엡데이트에 따른 호환성을 유지하기 위해
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/maintain1.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/maintain2.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/maintain3.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/maintain4.png")
+```
+---
+```{r,echo=FALSE}
+knitr::include_graphics("figures/maintain5.png")
+```
+
+

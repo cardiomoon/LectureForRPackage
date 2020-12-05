@@ -4,7 +4,7 @@
     <title>My Experiences:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Keon-Woong Moon" />
-    <meta name="date" content="2020-12-02" />
+    <meta name="date" content="2020-12-05" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 # My Experiences:
 ## Release and Maintain CRAN Packages
 ### Keon-Woong Moon
-### 2020-12-02
+### 2020-12-05
 
 ---
 
@@ -31,7 +31,7 @@ class: center, middle, inverse, title-slide
 - 성빈센트병원 순환기내과 재직
 
 - 11 CRAN packages (CRAN)
-  - mycor, moonBook, ztable(2015)
+  - mycor, moonBook, ztable(2014)
   - ggiraphExtra(2016) 
   - dplyrAssist, editData, ggplotAssist(2017)
   - rrtable (2018)
@@ -48,7 +48,54 @@ class: center, middle, inverse, title-slide
   - R을 이용한 조건부과정분석(2019,학지사)
 
 &lt;img src="figures/book1.jpg" width="25%" /&gt;&lt;img src="figures/book2.jpg" width="25%" /&gt;&lt;img src="figures/book3.jpg" width="25%" /&gt;&lt;img src="figures/book4.jpg" width="25%" /&gt;
+---
+class: inverse, center, middle
 
+# 논문 출판과 CRAN 등록
+---
+![article](figures/article.png)
+---
+[![R package moonBook](figures/moonBook.png)](https://cran.r-project.org/web/packages/moonBook/index.html)
+
+---
+## R 패키지를 만드는 이유는?
+
+
+- An R package is a good method for distributing functions to users.
+
+- R Packages require documentation and the package structure allows you to distribute functions and documentation together.
+
+---
+
+### Which of the following files and folders are required in an R package?
+
+- An inst/ directory.
+
+
+- A NAMESPACE file.
+
+
+- A DESCRIPTION file.
+
+
+- The R/ directory.
+
+
+- The man/ directory.
+
+
+- A README.md file.
+
+---
+### 참고문헌 : R package
+
+- Manual : [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+
+- [R packages](https://r-pkgs.org/)
+
+- [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+
+- [Coursera - Building R packages](https://www.coursera.org/learn/r-packages/home/welcome)
 ---
 class: inverse, center, middle
 
@@ -183,6 +230,81 @@ devtools::check_win()
 ![alt text](figures/Brian.jpeg)
 ![alt text](figures/reply3.png)
 ---
+class: inverse, center, middle
+
+# The 2nd CRAN package - moonBook(2014)
+
+---
+[![R package moonBook](figures/moonBook.png)](https://cran.r-project.org/web/packages/moonBook/index.html)
+
+---
+### The First Trial - package "mytest"
+
+&lt;img src="figures/mytest1.png" width="70%" /&gt;
+---
+&lt;img src="figures/mytest2.png" width="70%" /&gt;
+
+---
+### The 2nd Trial - package "mytable"
+&lt;img src="figures/mytable1.png" width="600" /&gt;
+---
+&lt;img src="figures/mytable2.png" width="600" /&gt;
+
+---
+.pull-left[
+&lt;img src="figures/mytable3.png" width="560" /&gt;
+]
+.pull-right[
+&lt;img src="figures/mytable4.png" width="568" /&gt;
+]
+---
+&lt;img src="figures/mytable5.png" width="842" /&gt;
+---
+&lt;img src="figures/mytable6.png" width="866" /&gt;
+---
+&lt;img src="figures/mytable7.png" width="866" /&gt;
+---
+### The 3nd Trial - package "moonBook"
+
+&lt;img src="figures/moonBook1.png" width="70%" /&gt;
+---
+&lt;img src="figures/moonBook2.png" width="693" /&gt;
+---
+&lt;img src="figures/moonBook3.png" width="711" /&gt;
+---
+&lt;img src="figures/moonBook4.png" width="711" /&gt;
+---
+&lt;img src="figures/moonBook5.png" width="741" /&gt;
+---
+&lt;img src="figures/moonBook6.png" width="640" /&gt;
+
+---
+class: inverse, center, middle
+
+# Maintenance of CRAN packages
+
+---
+### CRAN 패키지를 업데이트 해야 하는 경우
+
+- Bug fix
+
+- 새로운 함수, 데이터 추가
+
+- dependent package가 업데이트 되는 경우
+
+- CRAN 정책이 바뀐 경우
+
+- R버전의 엡데이트에 따른 호환성을 유지하기 위해
+---
+&lt;img src="figures/maintain1.png" width="745" /&gt;
+---
+&lt;img src="figures/maintain2.png" width="745" /&gt;
+---
+&lt;img src="figures/maintain3.png" width="744" /&gt;
+---
+&lt;img src="figures/maintain4.png" width="737" /&gt;
+---
+&lt;img src="figures/maintain5.png" width="737" /&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
